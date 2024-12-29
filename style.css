@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: gainsboro;
+}
+.nav-menu{
+    font-size: 30px;
+    background-color: beige;
+    padding: 10px;
+    text-align: center;
+}
+.menu-a{
+    padding: 20px;
+    color: black;
+}
+.history{
+    background-color: gainsboro;  
+    padding: 1px 250px;  
+}
+.contact{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-ul{
+    position: relative;
+    display: flex;
+    gap: 20px;
+}
+ul li {
+    position: relative;
+    list-style: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul li:hover {
+    width: 180px;
+    box-shadow: 0 0 0 2px var(--bg);
+}
+ul li::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--bg);
+    transition: 500ms;
+} 
+li {
+    padding: 0px 20px;
+}
+li a {
+    padding: 0px 10px;
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+#name-h1 {
+    text-align: center;
+    color: darkblue;
+}
+.hunter-box {
+    width:90%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+}
